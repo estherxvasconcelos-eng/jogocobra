@@ -3,7 +3,7 @@ const tela = {
     altura:400,
     cor:"green",
     desenhar(){
-        canvasCtx.fillstyle=this.cor;
+        canvasCtx.fillStyle=this.cor;
         canvasCtx.fillRect(0,60,this.largura,this.altura);
    
     }
